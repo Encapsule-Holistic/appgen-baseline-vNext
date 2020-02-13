@@ -1,0 +1,42 @@
+{
+    "name": "@encapsule/holodeck-assets",
+    "version": "0.1.00",
+    "codename": "alertbay",
+    "buildID": "7iQT_OrST8uVF1QuNJWEJw",
+    "buildTime": 1581556757,
+    "buildSource": "19a7500adce4b27a61e77db731bb051baf754f0e",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Encapsule/holistic.git"
+    },
+    "author": "Encapsule",
+    "contributors": [
+        {
+            "name": "Christopher D. Russell",
+            "email": "cdr@encapsule.io",
+            "url": "https://github.com/ChrisRus"
+        }
+    ],
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/Encapsule/holistic/issues"
+    },
+    "homepage": "https://github.com/Encapsule",
+    "description": "This package contains re-usable test runners, harnesses, and vectors for use in conjunction with @encapsule/holodeck test infrastructure package.",
+    "keywords": [
+        "Encapsule",
+        "holistic",
+        "holodeck",
+        "holodeck-assets",
+        "test",
+        "runner",
+        "harness",
+        "vector"
+    ],
+    "main": "index.js",
+    "peerDependencies": {
+        "@encapsule/arccore": "0.1.8",
+        "@encapsule/holodeck": "0.1.00",
+        "@encapsule/holarchy": "0.1.00"
+    }
+}

@@ -1,0 +1,40 @@
+{
+    "name": "@encapsule/hrequest",
+    "version": "0.1.00",
+    "codename": "alertbay",
+    "buildID": "7iQT_OrST8uVF1QuNJWEJw",
+    "buildTime": 1581556757,
+    "buildSource": "19a7500adce4b27a61e77db731bb051baf754f0e",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Encapsule/holistic.git"
+    },
+    "author": "Encapsule",
+    "contributors": [
+        {
+            "name": "Christopher D. Russell",
+            "email": "cdr@encapsule.io",
+            "url": "https://github.com/ChrisRus"
+        }
+    ],
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/Encapsule/holistic/issues"
+    },
+    "homepage": "https://github.com/Encapsule",
+    "description": "This package contains arccore.filter wrappers for XMLHttpRequest (browser) and the request module (Node.js server). Provides a mechanism to ensure the runtime fidelity of HTTP GET/POST communication between the client and server. And, between the server and other backend REST service integrations.",
+    "keywords": [
+        "HTTP",
+        "request",
+        "filter",
+        "node",
+        "browser",
+        "Encapsule"
+    ],
+    "main": "index.js",
+    "peerDependencies": {
+        "@encapsule/arccore": "0.1.8",
+        "query-string": "^6.2.0",
+        "request": "^2.88.0"
+    }
+}

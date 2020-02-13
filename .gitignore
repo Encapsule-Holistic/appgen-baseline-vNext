@@ -1,0 +1,17 @@
+// THIS FILE IS CODE-GENERATED
+// Encapsule holistic v0.1.00 "alertbay" 7iQT_OrST8uVF1QuNJWEJw 19a7500adce4b27a61e77db731bb051baf754f0e
+//
+
+/BUILD/
+/DISTS/
+
+# Node.js
+node_modules/*
+
+# emacs
+*~
+\#*
+
+*.log
+
+.DS_Store

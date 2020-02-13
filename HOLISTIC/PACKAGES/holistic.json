@@ -1,0 +1,23 @@
+{
+    "name": "holistic",
+    "description": "Holistic app platform: A system of runtime libraries, tools, and developer process for building Node.js services and stateful HTML5 applications with React and re-usable, testable, composable, remixable plug-and-play software models.",
+    "version": "0.1.00",
+    "codename": "alertbay",
+    "author": "Encapsule",
+    "copyright": {
+        "holder": "Christopher D. Russell",
+        "year": 2020
+    },
+    "contributors": [
+        {
+            "name": "Christopher D. Russell",
+            "email": "cdr@encapsule.io",
+            "url": "https://github.com/ChrisRus"
+        }
+    ],
+    "license": "MIT",
+    "buildID": "7iQT_OrST8uVF1QuNJWEJw",
+    "buildSource": "19a7500adce4b27a61e77db731bb051baf754f0e",
+    "buildTime": 1581556757,
+    "buildDateISO": "2020-02-13T01:19:17.000Z"
+}

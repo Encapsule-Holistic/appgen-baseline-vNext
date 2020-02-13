@@ -1,0 +1,42 @@
+{
+    "name": "@encapsule/holodeck",
+    "version": "0.1.00",
+    "codename": "alertbay",
+    "buildID": "7iQT_OrST8uVF1QuNJWEJw",
+    "buildTime": 1581556757,
+    "buildSource": "19a7500adce4b27a61e77db731bb051baf754f0e",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Encapsule/holistic.git"
+    },
+    "author": "Encapsule",
+    "contributors": [
+        {
+            "name": "Christopher D. Russell",
+            "email": "cdr@encapsule.io",
+            "url": "https://github.com/ChrisRus"
+        }
+    ],
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/Encapsule/holistic/issues"
+    },
+    "homepage": "https://github.com/Encapsule",
+    "description": "This package contains the holodeck test runner and test harness plug-in filter factory infrastructure. Holodeck functions like a medical imaging system for your code that bombards it with queries and captures the results to disk. Comparison of git diff's is often all that's required to verify the correct and expected behavior of updated app/service code tracked in this way.",
+    "keywords": [
+        "Encapsule",
+        "holistic",
+        "holodeck",
+        "holodeck-assets",
+        "test",
+        "runner",
+        "harness",
+        "vector",
+        "filter",
+        "plug-in"
+    ],
+    "main": "index.js",
+    "peerDependencies": {
+        "@encapsule/arccore": "0.1.8"
+    }
+}

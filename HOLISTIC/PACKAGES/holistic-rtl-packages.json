@@ -1,0 +1,15 @@
+[
+    "@encapsule/d2r2",
+    "@encapsule/d2r2-components",
+    "@encapsule/hash-router",
+    "@encapsule/holarchy",
+    "@encapsule/holarchy-sml",
+    "@encapsule/holism",
+    "@encapsule/holism-metadata",
+    "@encapsule/holism-services",
+    "@encapsule/holistic-app-client-sml",
+    "@encapsule/holistic-app-server-sml",
+    "@encapsule/holodeck",
+    "@encapsule/holodeck-assets",
+    "@encapsule/hrequest"
+]

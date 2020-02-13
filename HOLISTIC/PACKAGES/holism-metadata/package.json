@@ -1,0 +1,37 @@
+{
+    "name": "@encapsule/holism-metadata",
+    "version": "0.1.00",
+    "codename": "alertbay",
+    "buildID": "7iQT_OrST8uVF1QuNJWEJw",
+    "buildTime": 1581556757,
+    "buildSource": "19a7500adce4b27a61e77db731bb051baf754f0e",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Encapsule/holistic.git"
+    },
+    "author": "Encapsule",
+    "contributors": [
+        {
+            "name": "Christopher D. Russell",
+            "email": "cdr@encapsule.io",
+            "url": "https://github.com/ChrisRus"
+        }
+    ],
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/Encapsule/holistic/issues"
+    },
+    "homepage": "https://github.com/Encapsule",
+    "description": "This package contains an extensible framework for defining application-specific metadata - i.e. data about your app. It is intended for use in derived apps/services and is typically used in conjunction with @encapsule/holism integration plug-in filters to satisfy queries re: publishing organization, application, page, route, hashroute, resource, operation...",
+    "keywords": [
+        "Encapsule",
+        "holism",
+        "http",
+        "metadata",
+        "integration"
+    ],
+    "main": "metadata-store-constructor-factory.js",
+    "peerDependencies": {
+        "@encapsule/arccore": "0.1.8"
+    }
+}

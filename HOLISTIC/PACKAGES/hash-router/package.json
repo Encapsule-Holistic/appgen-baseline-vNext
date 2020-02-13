@@ -1,0 +1,34 @@
+{
+    "name": "@encapsule/hash-router",
+    "version": "0.1.00",
+    "codename": "alertbay",
+    "buildID": "7iQT_OrST8uVF1QuNJWEJw",
+    "buildTime": 1581556757,
+    "buildSource": "19a7500adce4b27a61e77db731bb051baf754f0e",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Encapsule/holistic.git"
+    },
+    "author": "Encapsule",
+    "contributors": [
+        {
+            "name": "Christopher D. Russell",
+            "email": "cdr@encapsule.io",
+            "url": "https://github.com/ChrisRus"
+        }
+    ],
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/Encapsule/holistic/issues"
+    },
+    "homepage": "https://github.com/Encapsule",
+    "description": "This package contains a minimal client-side hash router implementation that is designed to be integrated into higher-level abstractions. For example, a re-usable ObservableProcessModel (OPM).",
+    "keywords": [
+        "HTML5",
+        "browser",
+        "client",
+        "hash",
+        "router"
+    ],
+    "main": "minimal-hash-router.js"
+}
