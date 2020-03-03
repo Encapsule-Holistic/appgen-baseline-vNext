@@ -1,8 +1,8 @@
 {
   "name": "appgen-baseline-vNext",
   "description": "Your package description.",
-  "version": "1.0.0",
-  "codename": "HelloWorld!",
+  "version": "0.0.38",
+  "codename": "calvert-rc4-appgen",
   "applicationDependencies": {},
   "applicationScripts": {}
 }

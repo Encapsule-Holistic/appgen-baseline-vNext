@@ -1,25 +1,25 @@
 {
-  "appgen": "@encapsule/holistic v0.1.00 alertbay 7iQT_OrST8uVF1QuNJWEJw 19a7500adce4b27a61e77db731bb051baf754f0e 2020-02-13T01:19:17.000Z",
+  "appgen": "@encapsule/holistic v0.0.38 calvert-rc4 xVMelTFpRSmMS7faXh6MWQ 9aeb4b84798f9e67c9e6513e6890fa354a4fb6db 2020-03-02T23:03:21.000Z",
   "author": "Chris Russell <cdr@encapsule.io>",
-  "codename": "HelloWorld!",
+  "codename": "calvert-rc4-appgen",
   "description": "Your package description.",
   "devDependencies": {
     "@babel/cli": "^7.2.3",
     "@babel/core": "^7.2.2",
     "@babel/plugin-transform-react-jsx": "^7.2.0",
     "@babel/preset-env": "^7.2.3",
-    "@encapsule/arccore": "0.1.8",
-    "@encapsule/arctools": "0.1.8",
+    "@encapsule/arccore": "0.1.9",
+    "@encapsule/arctools": "0.1.9",
     "@encapsule/d2r2": "file:./HOLISTIC/PACKAGES/d2r2",
     "@encapsule/d2r2-components": "file:./HOLISTIC/PACKAGES/d2r2-components",
     "@encapsule/hash-router": "file:./HOLISTIC/PACKAGES/hash-router",
     "@encapsule/holarchy": "file:./HOLISTIC/PACKAGES/holarchy",
-    "@encapsule/holarchy-sml": "file:./HOLISTIC/PACKAGES/holarchy-sml",
+    "@encapsule/holarchy-cm": "file:./HOLISTIC/PACKAGES/holarchy-cm",
     "@encapsule/holism": "file:./HOLISTIC/PACKAGES/holism",
     "@encapsule/holism-metadata": "file:./HOLISTIC/PACKAGES/holism-metadata",
     "@encapsule/holism-services": "file:./HOLISTIC/PACKAGES/holism-services",
-    "@encapsule/holistic-app-client-sml": "file:./HOLISTIC/PACKAGES/holistic-app-client-sml",
-    "@encapsule/holistic-app-server-sml": "file:./HOLISTIC/PACKAGES/holistic-app-server-sml",
+    "@encapsule/holistic-app-client-cm": "file:./HOLISTIC/PACKAGES/holistic-app-client-cm",
+    "@encapsule/holistic-app-server-cm": "file:./HOLISTIC/PACKAGES/holistic-app-server-cm",
     "@encapsule/holodeck": "file:./HOLISTIC/PACKAGES/holodeck",
     "@encapsule/holodeck-assets": "file:./HOLISTIC/PACKAGES/holodeck-assets",
     "@encapsule/hrequest": "file:./HOLISTIC/PACKAGES/hrequest",
@@ -40,6 +40,9 @@
     "webpack": "4.29.5",
     "webpack-cli": "3.2.3"
   },
+  "engines": {
+    "node": ">=12.16.1 <13"
+  },
   "license": "MIT",
   "main": "index.js",
   "name": "appgen-baseline-vNext",
@@ -57,5 +60,5 @@
     "server": "yarn build && yarn start",
     "start": "node ./BUILD/runtime-phase3/SERVER/server.js"
   },
-  "version": "1.0.0"
+  "version": "0.0.38"
 }

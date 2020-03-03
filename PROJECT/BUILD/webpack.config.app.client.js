@@ -1,5 +1,5 @@
 // THIS FILE IS CODE-GENERATED
-// Encapsule holistic v0.1.00 "alertbay" 7iQT_OrST8uVF1QuNJWEJw 19a7500adce4b27a61e77db731bb051baf754f0e
+// Encapsule holistic v0.0.38 "calvert-rc4" xVMelTFpRSmMS7faXh6MWQ 9aeb4b84798f9e67c9e6513e6890fa354a4fb6db
 //
 // webpack.config.app.client.js
 //

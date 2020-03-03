@@ -4,7 +4,7 @@
 
 Encapsule Project is MIT-licensed libs & tools for building full-stack Node.js/HTML5 apps & services w/React based on System in Cloud (SiC) architecture.
 
-# ![](ASSETS/encapsule-holistic-32x32.png)&nbsp;Holistic App Platform v0.1.00 alertbay
+# ![](ASSETS/encapsule-holistic-32x32.png)&nbsp;Holistic App Platform v0.0.38 calvert-rc4
 
 ##  &#x029C9; Distribution:  @encapsule/holistic
 
@@ -13,9 +13,9 @@ Encapsule Project is MIT-licensed libs & tools for building full-stack Node.js/H
 Full-stack component engineering platform for building complex stateful webs apps and services with software models.
 
 ```
-Package: @encapsule/holistic v0.1.00 "alertbay" build ID "7iQT_OrST8uVF1QuNJWEJw"
-Sources: Encapsule/holistic-master#19a7500adce4b27a61e77db731bb051baf754f0e
-Created: 2020-02-13T01:19:17.000Z Purpose: tools (Node.js) License: MIT
+Package: @encapsule/holistic v0.0.38 "calvert-rc4" build ID "xVMelTFpRSmMS7faXh6MWQ"
+Sources: Encapsule/holistic-master#9aeb4b84798f9e67c9e6513e6890fa354a4fb6db
+Created: 2020-03-02T23:03:21.000Z Purpose: tools (Node.js) License: MIT
 ```
 
 ## ![](ASSETS/encapsule-holistic-24x24.png)&nbsp;Overview
@@ -44,7 +44,7 @@ Holistic app platform is becoming quite stable. But, lacks examples (required) a
 
     - &#x25F0; [@encapsule/holarchy](PACKAGES/holarchy/README.md "Jump to holarchy RTL package README...")
 
-    - &#x25F0; [@encapsule/holarchy-sml](PACKAGES/holarchy-sml/README.md "Jump to holarchy-sml RTL package README...")
+    - &#x25F0; [@encapsule/holarchy-cm](PACKAGES/holarchy-cm/README.md "Jump to holarchy-cm RTL package README...")
 
     - &#x25F0; [@encapsule/holism](PACKAGES/holism/README.md "Jump to holism RTL package README...")
 
@@ -52,9 +52,9 @@ Holistic app platform is becoming quite stable. But, lacks examples (required) a
 
     - &#x25F0; [@encapsule/holism-services](PACKAGES/holism-services/README.md "Jump to holism-services RTL package README...")
 
-    - &#x25F0; [@encapsule/holistic-app-client-sml](PACKAGES/holistic-app-client-sml/README.md "Jump to holistic-app-client-sml RTL package README...")
+    - &#x25F0; [@encapsule/holistic-app-client-cm](PACKAGES/holistic-app-client-cm/README.md "Jump to holistic-app-client-cm RTL package README...")
 
-    - &#x25F0; [@encapsule/holistic-app-server-sml](PACKAGES/holistic-app-server-sml/README.md "Jump to holistic-app-server-sml RTL package README...")
+    - &#x25F0; [@encapsule/holistic-app-server-cm](PACKAGES/holistic-app-server-cm/README.md "Jump to holistic-app-server-cm RTL package README...")
 
     - &#x25F0; [@encapsule/holodeck](PACKAGES/holodeck/README.md "Jump to holodeck RTL package README...")
 
@@ -303,15 +303,15 @@ This package contains a minimal client-side hash router implementation that is d
 
 ### &#x25F0; [@encapsule/holarchy](PACKAGES/holarchy/README.md "Jump to holarchy RTL package README...")
 
-This package contains the ObservableProcessController (OPC), ObservableProcessModel (OPM), ObservableControllerData (OCD), TransitionOperator (TOP), and ControllerAction (ACT) ES6 classes that are used to define and execute hierarchical asynchronous system models. Used to build complex reactive data-driven UX. And, back-end process orchestration data workflows.
+Cellular process modeling and runtime engine for Node.js and browser.
 
 > [README &#9656;](PACKAGES/holarchy/README.md "Jump to holarchy RTL package README...")
 
-### &#x25F0; [@encapsule/holarchy-sml](PACKAGES/holarchy-sml/README.md "Jump to holarchy-sml RTL package README...")
+### &#x25F0; [@encapsule/holarchy-cm](PACKAGES/holarchy-cm/README.md "Jump to holarchy-cm RTL package README...")
 
-This package contains the Holistic App Platform's core re-usable Software Model Library (SML) derived from @encapsule/holarchy ObservableProcessModel (OPM), TransitionOperator (TOP), and ControllerAction (ACT). Intended for use in derived app/services in conjunction with application-specific SML's executing in ObservableProcessController (OPC) instance(s).
+This package contains the Holistic App Platform's core re-usable CellModel library.
 
-> [README &#9656;](PACKAGES/holarchy-sml/README.md "Jump to holarchy-sml RTL package README...")
+> [README &#9656;](PACKAGES/holarchy-cm/README.md "Jump to holarchy-cm RTL package README...")
 
 ### &#x25F0; [@encapsule/holism](PACKAGES/holism/README.md "Jump to holism RTL package README...")
 
@@ -331,17 +331,17 @@ This package contains re-usable service filter plug-ins for use with the @encaps
 
 > [README &#9656;](PACKAGES/holism-services/README.md "Jump to holism-services RTL package README...")
 
-### &#x25F0; [@encapsule/holistic-app-client-sml](PACKAGES/holistic-app-client-sml/README.md "Jump to holistic-app-client-sml RTL package README...")
+### &#x25F0; [@encapsule/holistic-app-client-cm](PACKAGES/holistic-app-client-cm/README.md "Jump to holistic-app-client-cm RTL package README...")
 
-Software Model Library (SML) containing HTML5 browser client plug-in filter assets derived from @encapsule/holarchy.
+Exports the HolisticAppClient CellModel library for use in derived HTML5 applications.
 
-> [README &#9656;](PACKAGES/holistic-app-client-sml/README.md "Jump to holistic-app-client-sml RTL package README...")
+> [README &#9656;](PACKAGES/holistic-app-client-cm/README.md "Jump to holistic-app-client-cm RTL package README...")
 
-### &#x25F0; [@encapsule/holistic-app-server-sml](PACKAGES/holistic-app-server-sml/README.md "Jump to holistic-app-server-sml RTL package README...")
+### &#x25F0; [@encapsule/holistic-app-server-cm](PACKAGES/holistic-app-server-cm/README.md "Jump to holistic-app-server-cm RTL package README...")
 
-Software Model Library (SML) containing Node.js app server plug-in filter assets derived from @encapsule/holarchy.
+Exports the HolisticAppServer CellModel for use in derived @encapsule/holistic applications/services.
 
-> [README &#9656;](PACKAGES/holistic-app-server-sml/README.md "Jump to holistic-app-server-sml RTL package README...")
+> [README &#9656;](PACKAGES/holistic-app-server-cm/README.md "Jump to holistic-app-server-cm RTL package README...")
 
 ### &#x25F0; [@encapsule/holodeck](PACKAGES/holodeck/README.md "Jump to holodeck RTL package README...")
 

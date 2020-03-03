@@ -9,7 +9,7 @@ var consoleColorsLUT = require("./console-colors-lut");
 var logLevelLUT = {
   info: console.info,
   diagnostc: console.log,
-  warning: console.warning,
+  warn: console.warn,
   error: console.error
 };
 var factoryResponse = arccore.filter.create({
@@ -67,7 +67,7 @@ var factoryResponse = arccore.filter.create({
       ____label: "Log Level",
       ____description: "A flag indicating a severity of message.",
       ____accept: "jsString",
-      ____inValueSet: ["info", "diagnostic", "warning", "error"],
+      ____inValueSet: ["info", "diagnostic", "warn", "error"],
       ____defaultValue: "info"
     },
     subsystem: {
@@ -168,13 +168,13 @@ var factoryResponse = arccore.filter.create({
                 return "(".concat(stackEntry_.actorName, ")");
               }).join(" > ");
               message = ["%cOPC::act <".concat(request_.opc.iid.substr(0, 4), "...> actor stack: ").concat(actorStack)];
-              var border = "6px solid ".concat(consoleColorsLUT.opc.act.borderColor);
+              var border = "2px solid ".concat(consoleColorsLUT.opc.act.borderColor);
               var marginLeft = "".concat(12 * (request_.opc.actorStack.length - 1), "px");
               styles += "border-left: ".concat(border, "; margin-left: ").concat(marginLeft, ";");
 
               switch (request_.phase) {
                 case "prologue":
-                  styles += "border-top: 6px solid ".concat(consoleColorsLUT.opc.act.borderTopColor, ";");
+                  styles += "border-top: 2px solid ".concat(consoleColorsLUT.opc.act.borderTopColor, ";");
 
                   if (request_.opc.actorStack.length === 1) {
                     styles += "margin-top: 1em";
@@ -189,7 +189,7 @@ var factoryResponse = arccore.filter.create({
                   break;
 
                 case "epilogue":
-                  styles += "border-bottom: 6px solid ".concat(consoleColorsLUT.opc.act.borderBottomColor, ";");
+                  styles += "border-bottom: 2px solid ".concat(consoleColorsLUT.opc.act.borderBottomColor, ";");
                   message.push(request_.message);
                   break;
 

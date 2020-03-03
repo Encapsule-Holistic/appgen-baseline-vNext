@@ -1,15 +1,12 @@
 {
-    "name": "@encapsule/d2r2",
-    "version": "0.1.00",
-    "codename": "alertbay",
-    "buildID": "7iQT_OrST8uVF1QuNJWEJw",
-    "buildTime": 1581556757,
-    "buildSource": "19a7500adce4b27a61e77db731bb051baf754f0e",
-    "repository": {
-        "type": "git",
-        "url": "git+https://github.com/Encapsule/holistic.git"
-    },
     "author": "Encapsule",
+    "bugs": {
+        "url": "https://github.com/Encapsule/holistic/issues"
+    },
+    "buildID": "xVMelTFpRSmMS7faXh6MWQ",
+    "buildSource": "9aeb4b84798f9e67c9e6513e6890fa354a4fb6db",
+    "buildTime": 1583190201,
+    "codename": "calvert-rc4",
     "contributors": [
         {
             "name": "Christopher D. Russell",
@@ -17,12 +14,11 @@
             "url": "https://github.com/ChrisRus"
         }
     ],
-    "license": "MIT",
-    "bugs": {
-        "url": "https://github.com/Encapsule/holistic/issues"
+    "description": "This package contains the Data-Driven React Router (d2r2) component factory extension for React. And, the ComponentRouter dynamic view compositor packaged as a generic React component. Used to build extensible view templates, and decoupled view libraries.",
+    "engines": {
+        "node": ">=12.16.1 <13"
     },
     "homepage": "https://github.com/Encapsule",
-    "description": "This package contains the Data-Driven React Router (d2r2) component factory extension for React. And, the ComponentRouter dynamic view compositor packaged as a generic React component. Used to build extensible view templates, and decoupled view libraries.",
     "keywords": [
         "Encapsule",
         "React",
@@ -34,10 +30,17 @@
         "layout",
         "template"
     ],
+    "license": "MIT",
     "main": "index.js",
+    "name": "@encapsule/d2r2",
     "peerDependencies": {
-        "@encapsule/arccore": "0.1.8",
+        "@encapsule/arccore": "0.1.9",
         "react": "16.12.0",
         "react-dom": "16.12.0"
-    }
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Encapsule/holistic.git"
+    },
+    "version": "0.0.38"
 }

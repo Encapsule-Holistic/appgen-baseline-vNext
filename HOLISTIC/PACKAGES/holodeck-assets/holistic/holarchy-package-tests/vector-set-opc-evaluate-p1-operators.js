@@ -1,6 +1,6 @@
 "use strict";
 
-var holarchySML = require("@encapsule/holarchy-sml");
+var holarchyCM = require("@encapsule/holarchy-cm");
 
 var fixtureOpmExamples = require("./fixture-opm-evaluate-p1-transition-operators");
 
@@ -24,11 +24,11 @@ module.exports = [{
                 ____types: "jsObject",
                 ____defaultValue: {},
                 ____appdsl: {
-                  opm: "_vC2O7DGTZ22R5hvxpy0WQ"
+                  apm: "_vC2O7DGTZ22R5hvxpy0WQ"
                 }
               }
             },
-            observableProcessModelSets: [fixtureOpmExamples]
+            abstractProcessModelSets: [fixtureOpmExamples]
           }
         }
       }
@@ -52,12 +52,14 @@ module.exports = [{
                 ____types: "jsObject",
                 ____defaultValue: {},
                 ____appdsl: {
-                  opm: "_vC2O7DGTZ22R5hvxpy0WQ"
+                  apm: "_vC2O7DGTZ22R5hvxpy0WQ"
                 }
               }
             },
-            observableProcessModelSets: [fixtureOpmExamples],
-            transitionOperatorSets: [holarchySML.operators.logical]
+            abstractProcessModelSets: [fixtureOpmExamples],
+            transitionOperatorSets: [holarchyCM.cml.getCMConfig({
+              type: "TOP"
+            }).result]
           }
         }
       }
@@ -81,12 +83,14 @@ module.exports = [{
                 ____types: "jsObject",
                 ____defaultValue: {},
                 ____appdsl: {
-                  opm: "SyCUD3kpQ8mtYbV5A_4BPA"
+                  apm: "SyCUD3kpQ8mtYbV5A_4BPA"
                 }
               }
             },
-            observableProcessModelSets: [fixtureOpmExamples],
-            transitionOperatorSets: [holarchySML.operators.logical, fixtureTopExamples]
+            abstractProcessModelSets: [fixtureOpmExamples],
+            transitionOperatorSets: [holarchyCM.cml.getCMConfig({
+              type: "TOP"
+            }).result, fixtureTopExamples]
           }
         }
       }
@@ -110,12 +114,14 @@ module.exports = [{
                 ____types: "jsObject",
                 ____defaultValue: {},
                 ____appdsl: {
-                  opm: "Pkr1EErLSiiHQRt8gCaO0Q"
+                  apm: "Pkr1EErLSiiHQRt8gCaO0Q"
                 }
               }
             },
-            observableProcessModelSets: [fixtureOpmExamples],
-            transitionOperatorSets: [holarchySML.operators.logical, fixtureTopExamples]
+            abstractProcessModelSets: [fixtureOpmExamples],
+            transitionOperatorSets: [holarchyCM.cml.getCMConfig({
+              type: "TOP"
+            }).result, fixtureTopExamples]
           }
         }
       }

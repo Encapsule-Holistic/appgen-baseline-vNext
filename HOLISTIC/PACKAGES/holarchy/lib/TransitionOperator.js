@@ -6,6 +6,9 @@ function _defineProperties(target, props) { for (var i = 0; i < props.length; i+
 
 function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _defineProperties(Constructor.prototype, protoProps); if (staticProps) _defineProperties(Constructor, staticProps); return Constructor; }
 
+// TransitionOperator.js
+var arccore = require("@encapsule/arccore");
+
 var constructorFilter = require("./filters/top-method-constructor-filter");
 
 module.exports =
@@ -23,9 +26,14 @@ function () {
       this._private = {
         constructorError: null
       };
+      this.vdid = null;
       this.isValid = this.isValid.bind(this);
       this.toJSON = this.toJSON.bind(this);
       this.getFilter = this.getFilter.bind(this);
+      this.getID = this.getID.bind(this);
+      this.getVDID = this.getVDID.bind(this);
+      this.getName = this.getName.bind(this);
+      this.getDescription = this.getDescription.bind(this);
       var filterResponse = constructorFilter.request(request_);
 
       if (filterResponse.error) {
@@ -51,12 +59,46 @@ function () {
   }, {
     key: "toJSON",
     value: function toJSON() {
-      return this.isValid() ? this._private.filterDescriptor : this._private.constructorError;
+      if (!this.isValid()) {
+        return this._private.constructorError;
+      }
+
+      var response = {
+        id: this.getID(),
+        vdid: this.getVDID(),
+        name: this.getName(),
+        description: this.getDescription()
+      };
+      return response;
     }
   }, {
     key: "getFilter",
     value: function getFilter() {
       return this.isValid() ? this._private : this._private.constructorError;
+    }
+  }, {
+    key: "getID",
+    value: function getID() {
+      return this.isValid() ? this._private.filterDescriptor.operationID : this._privateConstructorError;
+    }
+  }, {
+    key: "getVDID",
+    value: function getVDID() {
+      if (!this.vdid) {
+        this.vdid = arccore.identifier.irut.fromReference(this._private).result;
+      }
+
+      return this.vdid;
+    }
+  }, {
+    key: "getName",
+    value: function getName() {
+      return this.isValid() ? this._private.filterDescriptor.operationName : this._privateConstructorError;
+    }
+  }, {
+    key: "getDescription",
+    value: function getDescription() {
+      return this.isValid() ? this._private.filterDescriptor.operationDescription : this._private.constructorError;
     }
   }]);
 

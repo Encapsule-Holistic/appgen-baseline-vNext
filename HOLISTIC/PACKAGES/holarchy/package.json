@@ -1,15 +1,12 @@
 {
-    "name": "@encapsule/holarchy",
-    "version": "0.1.00",
-    "codename": "alertbay",
-    "buildID": "7iQT_OrST8uVF1QuNJWEJw",
-    "buildTime": 1581556757,
-    "buildSource": "19a7500adce4b27a61e77db731bb051baf754f0e",
-    "repository": {
-        "type": "git",
-        "url": "git+https://github.com/Encapsule/holistic.git"
-    },
     "author": "Encapsule",
+    "bugs": {
+        "url": "https://github.com/Encapsule/holistic/issues"
+    },
+    "buildID": "xVMelTFpRSmMS7faXh6MWQ",
+    "buildSource": "9aeb4b84798f9e67c9e6513e6890fa354a4fb6db",
+    "buildTime": 1583190201,
+    "codename": "calvert-rc4",
     "contributors": [
         {
             "name": "Christopher D. Russell",
@@ -17,30 +14,30 @@
             "url": "https://github.com/ChrisRus"
         }
     ],
-    "license": "MIT",
-    "bugs": {
-        "url": "https://github.com/Encapsule/holistic/issues"
+    "description": "Cellular process modeling and runtime engine for Node.js and browser.",
+    "engines": {
+        "node": ">=12.16.1 <13"
     },
     "homepage": "https://github.com/Encapsule",
-    "description": "This package contains the ObservableProcessController (OPC), ObservableProcessModel (OPM), ObservableControllerData (OCD), TransitionOperator (TOP), and ControllerAction (ACT) ES6 classes that are used to define and execute hierarchical asynchronous system models. Used to build complex reactive data-driven UX. And, back-end process orchestration data workflows.",
     "keywords": [
         "Encapsule",
         "holistic",
         "holarchy",
-        "holarchy-sml",
-        "software model",
-        "software library",
-        "SML",
-        "reuse",
-        "re-use",
-        "ObservableProcessController",
-        "ObservableProcessModel",
-        "ObservableControllerData",
-        "TransitionOperator",
-        "ControllerAction"
+        "CellModel",
+        "CellProcessor",
+        "streaming",
+        "filtering",
+        "mind-fuck"
     ],
+    "license": "MIT",
     "main": "index.js",
+    "name": "@encapsule/holarchy",
     "peerDependencies": {
-        "@encapsule/arccore": "0.1.8"
-    }
+        "@encapsule/arccore": "0.1.9"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Encapsule/holistic.git"
+    },
+    "version": "0.0.38"
 }
