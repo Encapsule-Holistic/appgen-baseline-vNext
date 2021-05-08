@@ -28,7 +28,7 @@
     "commander": "^2.19.0",
     "css-loader": "3.0.0",
     "eslint": "^5.10.0",
-    "handlebars": "^4.0.12",
+    "handlebars": "^4.7.7",
     "mkdirp": "^0.5.1",
     "mockery": "^2.1.0",
     "query-string": "^6.2.0",
